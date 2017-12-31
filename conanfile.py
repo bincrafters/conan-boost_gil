@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostGilConan(ConanFile):
     name = "boost_gil"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-gil"
+    url = "https://github.com/bincrafters/conan-boost_gil"
 
     lib_short_names = ["gil"]
     is_header_only = True
